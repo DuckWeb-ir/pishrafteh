@@ -58,10 +58,7 @@ The `$`, `$$`, and `$_` shortcuts in the console provide quick ways to interact 
 - `$` allows the selection of a single element while `$$` facilitates the selection of multiple elements.
 - `$_` helps in referencing the result of the last evaluated expression in the console, streamlining debugging and testing workflows.
 
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
@@ -101,10 +98,7 @@ The `document.designMode` property in JavaScript enables the editing mode for th
 - Editing mode applies to the entire document, making all text content editable.
 - Changes made in this mode are not persistent by default; additional logic is needed to handle and save edits if required.
 
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
@@ -137,10 +131,7 @@ This simple usage of `once: true` eliminates the need to manually remove event l
 For more information, check the [MDN documentation on `addEventListener()`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener).
 
 
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
@@ -154,10 +145,7 @@ For more information, check the [MDN documentation on `addEventListener()`](http
 ### <a href="https://javascript.info/bubbling-and-capturing#stopping-bubbling">JAVASCRIPT.INFO Stopping bubbling</a>
 
 
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
@@ -210,10 +198,7 @@ Async Step 1
 In asynchronous execution with `setTimeout`, "Start" is logged first, followed by "Step 2" and "End" immediately. After a delay of 2 seconds, "Async Step 1" is logged. This delay does not pause the rest of the code execution.
 
 Understanding sync and async is crucial in JavaScript for handling tasks like fetching data or performing operations that may take time, ensuring smoother performance and responsiveness in your code.
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
@@ -311,10 +296,7 @@ addBook(newTitle, newAuthor, logBookList);
 
 This code defines the `addBook` function, which now takes `title` and `author` arguments along with a callback. Inside `addBook`, it creates a new book object using these arguments and adds it to the book list array after a delay. After the addition is done, it executes the callback function `logBookList` to log the updated book list. Adjust the `newTitle` and `newAuthor` variables to get the title and author dynamically if needed.
 
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
@@ -381,10 +363,7 @@ The `impureAdd` function modifies the `result` variable outside its scope, makin
 
 Understanding and using pure functions can promote more maintainable and reliable code, especially in functional programming paradigms.
 
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
@@ -420,10 +399,7 @@ exploreNeighborhood(); // Calls the function
 
 Understanding these scopes helps control how variables are accessed and used within your JavaScript code.
 
-<br>
-<br>
-<br>
-<br>
+ 
 
 ---
 ---
